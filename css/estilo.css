@@ -2,7 +2,7 @@ body {
   font-size: 18px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   height: 100%;
-  background: #01EDFA;
+  background: gray;
   width: 100%;
 }
 
@@ -11,7 +11,7 @@ body {
 }
 
 .cabecalho {
-  box-shadow: 5px 10px 5px gray;
+  box-shadow: 5px 10px 5px black;
   background-color: orangered;
   color: white;
   font-weight: bold;
@@ -31,7 +31,7 @@ a:hover {
 }
 
 .p-2:hover {
-  background-color: #01EDFA;
+  background-color: gray;
   opacity: 0.9;
   transition: 0.9s;
 }
@@ -63,17 +63,42 @@ a:hover {
 
 .sobre:hover {
   background-color: orangered;
-  border: inset #01EDFA 7px;
+  border: inset gray 7px;
   opacity: 0.9;
   transition: 0.8s;
 }
 
 .fotos {
   width: 100%;
+  height: 800px;
+}
+
+.fotos-col {
+  width: 100%;
+  height: 80%;
+}
+
+.arquivos {
+  width: 100%;
+  height: 500px;
+}
+
+.arquivos-col {
+  border-bottom: solid red 1px;
+  width: 1000%;
+  height: 80%;
+}
+
+.projetos {
+  width: 100%;
+  height: 500px;
+}
+
+.projetos-col {
+  width: 1000%;
   height: 100%;
 }
-.arquivos{
-  border-bottom: solid red 1px;
-  width: 50%;
-  height: 250px;
+
+h6 {
+  text-align: end;
 }
